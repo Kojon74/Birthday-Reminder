@@ -1,0 +1,32 @@
+.birthday-list {
+  width: 90%;
+}
+
+.birthday {
+  margin: 1rem;
+  display: flex;
+}
+
+.birthday-list .img-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.details {
+  margin-left: 20px;
+}
+
+h4 {
+  font-size: medium;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}
